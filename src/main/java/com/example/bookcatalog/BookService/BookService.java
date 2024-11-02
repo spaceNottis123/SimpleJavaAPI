@@ -1,12 +1,14 @@
-package com.example.bookcatalog.service;
+package com.example.bookcatalog.BookService;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-import com.example.bookcatalog.model.Book;
-import com.example.bookcatalog.repository.BookRepository;
+import com.example.bookcatalog.Book.Book;
+import com.example.bookcatalog.BookRepository.BookRepository;
 
+@Service
 public class BookService {
     @Autowired
     private BookRepository bookRepository;

@@ -1,98 +1,98 @@
-2024-11-02T14:22:20.192-03:00  INFO 241403 --- [bookcatalog] [main] c.e.bookcatalog.BookcatalogApplication   : Starting BookcatalogApplication using Java 17.0.12 with PID 241403 (/home/enzo/Documents/pessoal/bookcatalog/target/classes started by enzo in /home/enzo/Documents/pessoal/bookcatalog)
-2024-11-02T14:22:20.194-03:00  INFO 241403 --- [bookcatalog] [main] c.e.bookcatalog.BookcatalogApplication   : No active profile set, falling back to 1 default profile: "default"
-2024-11-02T14:22:21.301-03:00  INFO 241403 --- [bookcatalog] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-11-02T14:22:21.368-03:00  INFO 241403 --- [bookcatalog] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
-2024-11-02T14:22:22.117-03:00  INFO 241403 --- [bookcatalog] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-11-02T14:22:22.129-03:00  INFO 241403 --- [bookcatalog] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-02T14:22:22.130-03:00  INFO 241403 --- [bookcatalog] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
-2024-11-02T14:22:22.188-03:00  INFO 241403 --- [bookcatalog] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-02T14:22:22.189-03:00  INFO 241403 --- [bookcatalog] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1937 ms
-2024-11-02T14:22:22.387-03:00  INFO 241403 --- [bookcatalog] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-11-02T14:22:22.559-03:00  INFO 241403 --- [bookcatalog] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2024-11-02T14:22:22.561-03:00  INFO 241403 --- [bookcatalog] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-11-02T14:22:22.574-03:00  INFO 241403 --- [bookcatalog] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2024-11-02T14:22:22.782-03:00  INFO 241403 --- [bookcatalog] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-11-02T14:22:22.835-03:00  INFO 241403 --- [bookcatalog] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-11-02T14:22:22.879-03:00  INFO 241403 --- [bookcatalog] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-11-02T14:22:23.126-03:00  INFO 241403 --- [bookcatalog] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-11-02T14:22:23.959-03:00  INFO 241403 --- [bookcatalog] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-11-02T14:22:24.033-03:00  INFO 241403 --- [bookcatalog] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-11-02T14:22:24.376-03:00  WARN 241403 --- [bookcatalog] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-11-02T14:22:25.093-03:00  INFO 241403 --- [bookcatalog] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
-2024-11-02T14:22:25.181-03:00  INFO 241403 --- [bookcatalog] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-11-02T14:22:25.196-03:00  INFO 241403 --- [bookcatalog] [main] c.e.bookcatalog.BookcatalogApplication   : Started BookcatalogApplication in 5.47 seconds (process running for 5.824)
-2024-11-02T14:22:38.262-03:00  INFO 241403 --- [bookcatalog] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-11-02T14:22:38.263-03:00  INFO 241403 --- [bookcatalog] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-11-02T14:22:38.264-03:00  INFO 241403 --- [bookcatalog] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-11-02T14:37:40.128-03:00  INFO 241403 --- [bookcatalog] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-11-02T14:37:40.136-03:00  INFO 241403 --- [bookcatalog] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-11-02T14:37:40.146-03:00  INFO 241403 --- [bookcatalog] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-11-02T14:41:04.462-03:00  INFO 254818 --- [bookcatalog] [main] c.e.bookcatalog.BookcatalogApplication   : Starting BookcatalogApplication using Java 17.0.12 with PID 254818 (/home/enzo/Documents/pessoal/bookcatalog/target/classes started by enzo in /home/enzo/Documents/pessoal/bookcatalog)
-2024-11-02T14:41:04.464-03:00  INFO 254818 --- [bookcatalog] [main] c.e.bookcatalog.BookcatalogApplication   : No active profile set, falling back to 1 default profile: "default"
-2024-11-02T14:41:05.151-03:00  INFO 254818 --- [bookcatalog] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-11-02T14:41:05.197-03:00  INFO 254818 --- [bookcatalog] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
-2024-11-02T14:41:05.756-03:00  INFO 254818 --- [bookcatalog] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-11-02T14:41:05.769-03:00  INFO 254818 --- [bookcatalog] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-02T14:41:05.769-03:00  INFO 254818 --- [bookcatalog] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
-2024-11-02T14:41:05.816-03:00  INFO 254818 --- [bookcatalog] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-02T14:41:05.817-03:00  INFO 254818 --- [bookcatalog] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1310 ms
-2024-11-02T14:41:05.946-03:00  INFO 254818 --- [bookcatalog] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-11-02T14:41:06.098-03:00  INFO 254818 --- [bookcatalog] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2024-11-02T14:41:06.100-03:00  INFO 254818 --- [bookcatalog] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-11-02T14:41:06.111-03:00  INFO 254818 --- [bookcatalog] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2024-11-02T14:41:06.268-03:00  INFO 254818 --- [bookcatalog] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-11-02T14:41:06.316-03:00  INFO 254818 --- [bookcatalog] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-11-02T14:41:06.345-03:00  INFO 254818 --- [bookcatalog] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-11-02T14:41:06.569-03:00  INFO 254818 --- [bookcatalog] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-11-02T14:41:07.221-03:00  INFO 254818 --- [bookcatalog] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-11-02T14:41:07.274-03:00  INFO 254818 --- [bookcatalog] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-11-02T14:41:07.542-03:00  WARN 254818 --- [bookcatalog] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-11-02T14:41:08.082-03:00  INFO 254818 --- [bookcatalog] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
-2024-11-02T14:41:08.154-03:00  INFO 254818 --- [bookcatalog] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-11-02T14:41:08.171-03:00  INFO 254818 --- [bookcatalog] [main] c.e.bookcatalog.BookcatalogApplication   : Started BookcatalogApplication in 4.076 seconds (process running for 4.323)
-2024-11-02T14:41:19.218-03:00  INFO 254818 --- [bookcatalog] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-11-02T14:41:19.219-03:00  INFO 254818 --- [bookcatalog] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-11-02T14:41:19.221-03:00  INFO 254818 --- [bookcatalog] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2024-11-02T14:41:59.741-03:00  INFO 254818 --- [bookcatalog] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-11-02T14:41:59.746-03:00  INFO 254818 --- [bookcatalog] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-11-02T14:41:59.753-03:00  INFO 254818 --- [bookcatalog] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-11-02T14:42:29.169-03:00  INFO 256047 --- [bookcatalog] [main] c.e.b.BookcatalogApplicationTests        : Starting BookcatalogApplicationTests using Java 17.0.12 with PID 256047 (started by enzo in /home/enzo/Documents/pessoal/bookcatalog)
-2024-11-02T14:42:29.172-03:00  INFO 256047 --- [bookcatalog] [main] c.e.b.BookcatalogApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2024-11-02T14:42:30.012-03:00  INFO 256047 --- [bookcatalog] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-11-02T14:42:30.064-03:00  INFO 256047 --- [bookcatalog] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
-2024-11-02T14:42:30.597-03:00  INFO 256047 --- [bookcatalog] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-11-02T14:42:30.652-03:00  INFO 256047 --- [bookcatalog] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-11-02T14:42:30.689-03:00  INFO 256047 --- [bookcatalog] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-11-02T14:42:31.042-03:00  INFO 256047 --- [bookcatalog] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-11-02T14:42:31.069-03:00  INFO 256047 --- [bookcatalog] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-11-02T14:42:31.231-03:00  INFO 256047 --- [bookcatalog] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2024-11-02T14:42:31.233-03:00  INFO 256047 --- [bookcatalog] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-11-02T14:42:31.898-03:00  INFO 256047 --- [bookcatalog] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-11-02T14:42:31.953-03:00  INFO 256047 --- [bookcatalog] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-11-02T14:42:32.482-03:00  WARN 256047 --- [bookcatalog] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-11-02T14:42:33.323-03:00  INFO 256047 --- [bookcatalog] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2024-11-02T14:42:33.398-03:00  INFO 256047 --- [bookcatalog] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
-2024-11-02T14:42:33.494-03:00  INFO 256047 --- [bookcatalog] [main] c.e.b.BookcatalogApplicationTests        : Started BookcatalogApplicationTests in 4.662 seconds (process running for 5.454)
-2024-11-02T14:42:34.115-03:00  INFO 256047 --- [bookcatalog] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-11-02T14:42:34.120-03:00  INFO 256047 --- [bookcatalog] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-11-02T14:42:34.128-03:00  INFO 256047 --- [bookcatalog] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-11-02T14:43:13.751-03:00  INFO 256827 --- [bookcatalog] [main] c.e.b.BookcatalogApplicationTests        : Starting BookcatalogApplicationTests using Java 17.0.12 with PID 256827 (started by enzo in /home/enzo/Documents/pessoal/bookcatalog)
-2024-11-02T14:43:13.753-03:00  INFO 256827 --- [bookcatalog] [main] c.e.b.BookcatalogApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2024-11-02T14:43:14.636-03:00  INFO 256827 --- [bookcatalog] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-11-02T14:43:14.688-03:00  INFO 256827 --- [bookcatalog] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
-2024-11-02T14:43:15.248-03:00  INFO 256827 --- [bookcatalog] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-11-02T14:43:15.296-03:00  INFO 256827 --- [bookcatalog] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-11-02T14:43:15.324-03:00  INFO 256827 --- [bookcatalog] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-11-02T14:43:15.595-03:00  INFO 256827 --- [bookcatalog] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-11-02T14:43:15.621-03:00  INFO 256827 --- [bookcatalog] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-11-02T14:43:15.782-03:00  INFO 256827 --- [bookcatalog] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2024-11-02T14:43:15.784-03:00  INFO 256827 --- [bookcatalog] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-11-02T14:43:16.447-03:00  INFO 256827 --- [bookcatalog] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-11-02T14:43:16.502-03:00  INFO 256827 --- [bookcatalog] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-11-02T14:43:17.030-03:00  WARN 256827 --- [bookcatalog] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-11-02T14:43:17.814-03:00  INFO 256827 --- [bookcatalog] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2024-11-02T14:43:17.861-03:00  INFO 256827 --- [bookcatalog] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
-2024-11-02T14:43:17.951-03:00  INFO 256827 --- [bookcatalog] [main] c.e.b.BookcatalogApplicationTests        : Started BookcatalogApplicationTests in 4.466 seconds (process running for 5.388)
-2024-11-02T14:43:18.572-03:00  INFO 256827 --- [bookcatalog] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-11-02T14:43:18.575-03:00  INFO 256827 --- [bookcatalog] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-11-02T14:43:18.580-03:00  INFO 256827 --- [bookcatalog] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-03T00:46:12.541-03:00  INFO 631866 --- [bookcatalog] [main] c.e.bookcatalog.BookcatalogApplication   : Starting BookcatalogApplication using Java 17.0.12 with PID 631866 (/home/enzo/Documents/pessoal/bookcatalog/target/classes started by enzo in /home/enzo/Documents/pessoal/bookcatalog)
+2024-11-03T00:46:12.555-03:00  INFO 631866 --- [bookcatalog] [main] c.e.bookcatalog.BookcatalogApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-03T00:46:13.429-03:00  INFO 631866 --- [bookcatalog] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-03T00:46:13.495-03:00  INFO 631866 --- [bookcatalog] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2024-11-03T00:46:14.105-03:00  INFO 631866 --- [bookcatalog] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-03T00:46:14.116-03:00  INFO 631866 --- [bookcatalog] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-03T00:46:14.116-03:00  INFO 631866 --- [bookcatalog] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-03T00:46:14.155-03:00  INFO 631866 --- [bookcatalog] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-03T00:46:14.156-03:00  INFO 631866 --- [bookcatalog] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1544 ms
+2024-11-03T00:46:14.317-03:00  INFO 631866 --- [bookcatalog] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-03T00:46:14.444-03:00  INFO 631866 --- [bookcatalog] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-03T00:46:14.446-03:00  INFO 631866 --- [bookcatalog] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-03T00:46:14.458-03:00  INFO 631866 --- [bookcatalog] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-03T00:46:14.613-03:00  INFO 631866 --- [bookcatalog] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-03T00:46:14.645-03:00  INFO 631866 --- [bookcatalog] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-03T00:46:14.668-03:00  INFO 631866 --- [bookcatalog] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-03T00:46:14.852-03:00  INFO 631866 --- [bookcatalog] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-03T00:46:15.470-03:00  INFO 631866 --- [bookcatalog] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-03T00:46:15.506-03:00  INFO 631866 --- [bookcatalog] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-03T00:46:15.739-03:00  WARN 631866 --- [bookcatalog] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-03T00:46:16.319-03:00  INFO 631866 --- [bookcatalog] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2024-11-03T00:46:16.386-03:00  INFO 631866 --- [bookcatalog] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-03T00:46:16.399-03:00  INFO 631866 --- [bookcatalog] [main] c.e.bookcatalog.BookcatalogApplication   : Started BookcatalogApplication in 4.209 seconds (process running for 4.436)
+2024-11-03T00:46:50.811-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-03T00:46:50.812-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-03T00:46:50.813-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-03T00:46:50.846-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-1] c.e.b.BookController.BookController      : Received request to get all books
+2024-11-03T00:46:50.847-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-1] c.e.bookcatalog.BookService.BookService  : Fetching all books from the repository
+2024-11-03T00:47:38.407-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-4] com.example.bookcatalog.Book.Book        : Setting title to 'diary of a wimp kid'
+2024-11-03T00:47:38.408-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-4] com.example.bookcatalog.Book.Book        : Setting author to 'wimp kid'
+2024-11-03T00:47:38.409-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-4] com.example.bookcatalog.Book.Book        : Setting genre to 'Fiction'
+2024-11-03T00:47:38.411-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-4] com.example.bookcatalog.Book.Book        : Setting price to 20.0
+2024-11-03T00:47:38.418-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-4] c.e.b.BookController.BookController      : Received request to create a book: Book{id=null, title='diary of a wimp kid', author='wimp kid', genre='Fiction', price='20.0}
+2024-11-03T00:47:38.420-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-4] c.e.bookcatalog.BookService.BookService  : Saving book: Book{id=null, title='diary of a wimp kid', author='wimp kid', genre='Fiction', price='20.0} to the repository
+2024-11-03T00:48:02.526-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-5] c.e.b.BookController.BookController      : Received request to get all books
+2024-11-03T00:48:02.526-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-5] c.e.bookcatalog.BookService.BookService  : Fetching all books from the repository
+2024-11-03T00:48:14.354-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-6] c.e.b.BookController.BookController      : Received request to get book by id: 1
+2024-11-03T00:48:14.354-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-6] c.e.bookcatalog.BookService.BookService  : Fetching book with id: 1 from the repository
+2024-11-03T00:48:14.363-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-6] c.e.b.BookController.BookController      : Book found with id: 1
+2024-11-03T00:48:44.601-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-7] com.example.bookcatalog.Book.Book        : Setting title to 'diary of a wimp kid'
+2024-11-03T00:48:44.601-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-7] com.example.bookcatalog.Book.Book        : Setting author to 'wimp kid'
+2024-11-03T00:48:44.601-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-7] com.example.bookcatalog.Book.Book        : Setting genre to 'Fiction'
+2024-11-03T00:48:44.601-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-7] com.example.bookcatalog.Book.Book        : Setting price to 15.0
+2024-11-03T00:48:44.601-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-7] c.e.b.BookController.BookController      : Received request to update book with id: 1
+2024-11-03T00:48:44.601-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-7] c.e.bookcatalog.BookService.BookService  : Fetching book with id: 1 from the repository
+2024-11-03T00:48:44.603-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-7] com.example.bookcatalog.Book.Book        : Setting title to 'diary of a wimp kid'
+2024-11-03T00:48:44.603-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-7] com.example.bookcatalog.Book.Book        : Setting author to 'wimp kid'
+2024-11-03T00:48:44.603-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-7] com.example.bookcatalog.Book.Book        : Setting genre to 'Fiction'
+2024-11-03T00:48:44.603-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-7] com.example.bookcatalog.Book.Book        : Setting price to 15.0
+2024-11-03T00:48:44.603-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-7] c.e.b.BookController.BookController      : Updating book with id: 1
+2024-11-03T00:48:44.603-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-7] c.e.bookcatalog.BookService.BookService  : Saving book: Book{id=1, title='diary of a wimp kid', author='wimp kid', genre='Fiction', price='15.0} to the repository
+2024-11-03T00:48:54.612-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-8] c.e.b.BookController.BookController      : Received request to delete book with id: 1
+2024-11-03T00:48:54.612-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-8] c.e.bookcatalog.BookService.BookService  : Fetching book with id: 1 from the repository
+2024-11-03T00:48:54.615-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-8] c.e.bookcatalog.BookService.BookService  : Deleting book with id: 1 from the repository
+2024-11-03T00:48:54.642-03:00  INFO 631866 --- [bookcatalog] [http-nio-8080-exec-8] c.e.b.BookController.BookController      : Deleted book with id: 1
+2024-11-03T00:49:03.969-03:00  INFO 631866 --- [bookcatalog] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-03T00:49:03.972-03:00  INFO 631866 --- [bookcatalog] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-03T00:49:03.977-03:00  INFO 631866 --- [bookcatalog] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-03T00:49:53.824-03:00  INFO 635115 --- [bookcatalog] [main] c.e.b.BookcatalogApplicationTests        : Starting BookcatalogApplicationTests using Java 17.0.12 with PID 635115 (started by enzo in /home/enzo/Documents/pessoal/bookcatalog)
+2024-11-03T00:49:53.825-03:00  INFO 635115 --- [bookcatalog] [main] c.e.b.BookcatalogApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-11-03T00:49:54.587-03:00  INFO 635115 --- [bookcatalog] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-03T00:49:54.622-03:00  INFO 635115 --- [bookcatalog] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2024-11-03T00:49:55.215-03:00  INFO 635115 --- [bookcatalog] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-03T00:49:55.262-03:00  INFO 635115 --- [bookcatalog] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-03T00:49:55.285-03:00  INFO 635115 --- [bookcatalog] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-03T00:49:55.505-03:00  INFO 635115 --- [bookcatalog] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-03T00:49:55.526-03:00  INFO 635115 --- [bookcatalog] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-03T00:49:55.664-03:00  INFO 635115 --- [bookcatalog] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-03T00:49:55.666-03:00  INFO 635115 --- [bookcatalog] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-03T00:49:56.161-03:00  INFO 635115 --- [bookcatalog] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-03T00:49:56.214-03:00  INFO 635115 --- [bookcatalog] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-03T00:49:56.666-03:00  WARN 635115 --- [bookcatalog] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-03T00:49:57.361-03:00  INFO 635115 --- [bookcatalog] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-03T00:49:57.404-03:00  INFO 635115 --- [bookcatalog] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2024-11-03T00:49:57.494-03:00  INFO 635115 --- [bookcatalog] [main] c.e.b.BookcatalogApplicationTests        : Started BookcatalogApplicationTests in 3.919 seconds (process running for 4.537)
+2024-11-03T00:49:58.047-03:00  INFO 635115 --- [bookcatalog] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-03T00:49:58.050-03:00  INFO 635115 --- [bookcatalog] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-03T00:49:58.056-03:00  INFO 635115 --- [bookcatalog] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-03T00:50:48.403-03:00  INFO 635982 --- [bookcatalog] [main] c.e.b.BookcatalogApplicationTests        : Starting BookcatalogApplicationTests using Java 17.0.12 with PID 635982 (started by enzo in /home/enzo/Documents/pessoal/bookcatalog)
+2024-11-03T00:50:48.405-03:00  INFO 635982 --- [bookcatalog] [main] c.e.b.BookcatalogApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-11-03T00:50:49.122-03:00  INFO 635982 --- [bookcatalog] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-03T00:50:49.160-03:00  INFO 635982 --- [bookcatalog] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2024-11-03T00:50:49.635-03:00  INFO 635982 --- [bookcatalog] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-03T00:50:49.683-03:00  INFO 635982 --- [bookcatalog] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-03T00:50:49.719-03:00  INFO 635982 --- [bookcatalog] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-03T00:50:49.961-03:00  INFO 635982 --- [bookcatalog] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-03T00:50:49.980-03:00  INFO 635982 --- [bookcatalog] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-03T00:50:50.147-03:00  INFO 635982 --- [bookcatalog] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-03T00:50:50.148-03:00  INFO 635982 --- [bookcatalog] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-03T00:50:50.671-03:00  INFO 635982 --- [bookcatalog] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-03T00:50:50.709-03:00  INFO 635982 --- [bookcatalog] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-03T00:50:51.152-03:00  WARN 635982 --- [bookcatalog] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-03T00:50:51.838-03:00  INFO 635982 --- [bookcatalog] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-03T00:50:51.873-03:00  INFO 635982 --- [bookcatalog] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2024-11-03T00:50:51.943-03:00  INFO 635982 --- [bookcatalog] [main] c.e.b.BookcatalogApplicationTests        : Started BookcatalogApplicationTests in 3.798 seconds (process running for 4.497)
+2024-11-03T00:50:52.524-03:00  INFO 635982 --- [bookcatalog] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-03T00:50:52.527-03:00  INFO 635982 --- [bookcatalog] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-03T00:50:52.531-03:00  INFO 635982 --- [bookcatalog] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
